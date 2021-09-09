@@ -1,0 +1,5 @@
+{
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc -Wall -Wextra -Wunused-parameter -g $fileName -o $fileNameWithoutExt -lm -lcs50 && $dir$fileNameWithoutExt"
+  }
+}
